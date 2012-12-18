@@ -58,4 +58,6 @@ If you have suggestions for features to be added/refined feel free to let me kno
 
 ##Licensing
 
+The original concept and implementation is credited to the author of [Oh, The Huge Manatee!](http://ohthehugemanatee.net/2009/10/the-magical-word-o-matic-or-markov-text-analysis-for-fun-and-non-profit/)
+
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/)
