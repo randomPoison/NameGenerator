@@ -14,6 +14,7 @@ public class NameGenerator {
 
 	private int[][][] probabilities;
 	private ArrayList<Character> characters;
+	private TreeMap<String, String> input;
 	private TreeMap<String, String> results;
 	private boolean initialized;
 
@@ -53,6 +54,7 @@ public class NameGenerator {
 
 	private void addStringToProbability(String name) {
 		String lowerName = name.toLowerCase();
+		input.put(lowerName, lowerName);
 		char last1 = TERMINATOR, last2 = TERMINATOR;
 		int index = 0;
 		while (index < lowerName.length()) {
@@ -144,7 +146,7 @@ public class NameGenerator {
 	
 	// returns true if $name has already been added to $results
 	public boolean hasName(String name) {
-		return results.containsKey(name);
+		return results.containsKey(name) || input.containsKey(name);
 	}
 	
 	public void addName(String name) {

@@ -287,9 +287,9 @@ public class MainWindow extends JPanel implements Runnable {
 		@Override
 		public void actionPerformed(ActionEvent event) {
 			if (event.getSource() == add) {
-				addCharacters(textField.getText().toCharArray());
+				addCharacters(textField.getText().toLowerCase().toCharArray());
 			} else if (event.getSource() == remove) {
-				removeCharacters(textField.getText().toCharArray());
+				removeCharacters(textField.getText().toLowerCase().toCharArray());
 			}
 		}
 		
