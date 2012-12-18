@@ -1,0 +1,8 @@
+Functionality:
+	set and keep a source file
+	save probabilities and preferences to a save file
+	add characters to be included in the probabilities matrix
+	generate lists of unique names
+	generate a single name
+	reload source names
+	GUI to make use easier
