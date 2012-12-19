@@ -1,6 +1,6 @@
 #NameGenerator
 
-Cody by David Legare
+Code by David Legare
 
 excaliburHisSheath@gmail.com
 
