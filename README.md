@@ -22,32 +22,9 @@ To save the list of generated names, enter a name for your output file and the p
 
 The program defaults to only recognizing english alphabetic characters and will simply ignore any unrecognized character. You can add or remove characters by simply typing them into the prompt. You man add or remove more than one character at once.
 
-### Input vs Output
-
 [Example input and output](https://docs.google.com/spreadsheet/ccc?key=0AuEzVS4v3FaddENNS1dNT0ZiRThlajBRczE4ZHZwSXc)
 
-The more robust your sample names are the better the resulting generated names will be. The program generates the words one character at a time based on the probability of any one character following the previous two, so it will only generate letter pairings that it has seen before.
-
-What this means is that if your sample file had only 
-
-+ cat
-+ dog
-
-The program would only output
-
-+ cat
-+ dog
-
-because no letters overlap. However, even if your input were
-
-+ mouse
-+ dog
-
-the program still wouldn't be able to generate any new names because, even though both words have an 'o' in common, the program takes the characters in pairs and there are no character pairs in common.
-
-If you have too few sample names or your sample names are too simple then the program will not be able to generate a variety of names and the output will be limited. Try to have at least 15-20 sample names for optimal results.
-
-The program will also produce many names that are too long, too short, or simply don't work. It is up to you to pick the names you like best from the list. If you want to refine your output generate a large list, clean out the bad names, and feed the output back into the program.
+For an excellent explanation of the functionality of the program, please read [Oh, The Huge Manatee!](http://ohthehugemanatee.net/2009/10/the-magical-word-o-matic-or-markov-text-analysis-for-fun-and-non-profit/)
 
 ##Bugs and Suggestions
 
