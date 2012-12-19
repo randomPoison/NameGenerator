@@ -30,6 +30,7 @@ public class NameGenerator {
 		for (Character s : defaultChars)
 			characters.add(s);
 		results = new TreeMap<String, String>();
+		input = new TreeMap<String, String>();
 		initialized = false;
 	}
 
